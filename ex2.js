@@ -1,9 +1,8 @@
-const numeroSecreto = 12;
-let quantidadeTentativas = 0;
-let palpite = Math.floor(Math.random() * 99);
+let numb = 1;
 
-while (palpite !== numeroSecreto) {
-    palpite = Math.floor(Math.random() * 99);
-    quantidadeTentativas++;
-    console.log()
+while (numb <= 15) {
+    if (numb % 2 !==0){
+        console.log(numb);
+    }
+    numb++
 }
