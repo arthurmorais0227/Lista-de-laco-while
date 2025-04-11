@@ -1,5 +1,6 @@
-let soma = 0;
+let numb = 0;
 
-for ( let i = 1; i<=20; i++ ) {
-    console.log(` ${soma} + ${i} = ${soma = soma + i}`);
+while (numb < 10) {
+    numb++;
+    console.log( `${numb} x 5 = ${numb * 5}.`);
 }
